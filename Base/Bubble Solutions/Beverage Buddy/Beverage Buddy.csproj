@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Beverage_Buddy</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\Inventory\Liquers\" />
+    <Folder Include="Classes\Inventory\Glasses\" />
+    <Folder Include="Classes\Inventory\Mixers\" />
+    <Folder Include="Classes\Inventory\Combos\" />
+  </ItemGroup>
+
+</Project>
